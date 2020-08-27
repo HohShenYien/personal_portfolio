@@ -46,20 +46,23 @@ header{
     font-family: "Times New Roman", Times, serif;
 }
 
+
 #about{
     height: 100vh;
     padding: 3em;
-    background-color: #B0E0E6;
+    background-color: #333399;
     position: relative;
 }
 
 #about-header{
     margin-top: -15%;
     font-family: Cambria Arial;
+    color: #A9A9A9;
 }
 
 .about-content{
     font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+    color: #ffffff;
 }
 
 .blockquote{
@@ -78,6 +81,7 @@ header{
 .header{
     font-family: Cambria Arial;
     margin-top: 40px;
+    color: #A9A9A9;
 }
 
 #skills-list{
@@ -145,5 +149,28 @@ header{
 }
 
 #contacts{
-    background-color: #FFF8DC;
+    background-color: #FFE4E1;
+}
+
+blockquote{
+    position: relative;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+blockquote h3:before {
+    content: "\201C";
+    font-size:45px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    color: #696969;
+}
+blockquote h3:after {
+    content: "\201D";
+    position: absolute;
+    font-size:45px;
+    top: 15%;
+    right: 15%;
+    color: #696969;
 }
